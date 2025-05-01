@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: 'Silk Serif';
-    src: url(./silkserif-regularitalic-webfont.ttf);
+    src: url(fonts/silkserif-regularitalic-webfont.ttf);
 }
 
 @font-face {
     font-family: 'Plain light';
-    src: url(./plain-light-webfont.ttf);
+    src: url(fonts/plain-light-webfont.ttf);
 }
 
 #main{
