@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Plain light', sans-serif;
     color: #fff;
+}
+/* 
+body{
+    cursor: none;
+} */
+#crsr{
+    width: 2.3vw;
+    height: 2.3vw;
+    position: fixed;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #ffffff8c;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 @font-face {
@@ -111,4 +127,62 @@
     height: 100vh;
     width: 100%;
     background-color: #151515;
+}
+
+#page1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8vw 7.8vw;
+}
+
+#nav-sub{
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+}
+
+#nav-sub a{
+    text-decoration: none;
+    font-size: 0.95vw;
+    font-weight: 400;
+}
+
+.links{
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url(fonts/plain-regular-webfont.ttf);
+}
+
+.hero{
+    margin-left: 27.4vw;
+    overflow: hidden;
+}
+
+.hero h1{
+    font-family: 'Plain';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 7.4vw;
+    line-height: 7.4vw;
+}
+
+.hero:nth-child(2){
+    margin-top: 14vh;
+}
+
+span.u{
+    text-decoration: underline;
+    text-underline-offset: 0.7vw;
+    text-decoration-thickness: 0.5vw;
+    transition: all 0.25s ease-in-out;
+}
+
+span.u:hover{
+    -webkit-text-stroke:1px #fff;
+    text-decoration: none;
+    color: transparent;
 }
